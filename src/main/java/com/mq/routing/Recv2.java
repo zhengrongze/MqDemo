@@ -32,6 +32,7 @@ public class Recv2 {
                     // 返回确认状态
                     channel.basicAck(envelope.getDeliveryTag(),false);
                 }
+                //测试
             }
         };
         //aotoAck = true 自动确认模式，一旦mq将信息分发给消费者，就会从内存中删除
